@@ -6,7 +6,7 @@
 .scoreboard {
   width: 58%;
   margin: 10rem auto;
-  background-color: #0b5402;
+  background-color: rgb(0, 0, 46);
   color: white;
   border-radius: 0.5rem;
   margin-top: 10rem;
@@ -34,11 +34,11 @@
 }
 
 .home {
-  background-color: #656565;
+  background-color: darkgreen;
 }
 
 .away {
-  background-color: #af750a;
+  background-color: purple;
 }
 
 .home__name,
@@ -120,3 +120,4 @@
   margin: 1rem;
   border-radius: 4px;
 }
+

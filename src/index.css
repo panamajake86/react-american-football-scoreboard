@@ -43,6 +43,32 @@ button {
   -moz-appearance: none;
 }
 
+.thirdRowButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dwnButton
+.toGoButton
+.yardageButton
+.qtrButton {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #414141;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1.6rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 button:hover,
 button:focus {
   background: #a2272d;
